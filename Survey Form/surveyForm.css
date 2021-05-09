@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(180deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url('company.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+#title {
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+#title h1 { 
+    margin-bottom: -10px;
+}
+
+.formGroup {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(64, 22, 83, 0.6);
+    border-radius: 10px;
+}
+
+.htmlForm {
+    padding: 40px;
+}
+
+.formDiv {
+    margin: 0 auto 15px;
+}
+
+.inputBox {
+    display: block;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    position: relative;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.labelClass {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.labelCB {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+input, textarea, select{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.submitButton {
+    width: 580px;
+    height: 40px;
+    background-color: rgb(0, 255, 0);
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: 1000;
+    margin-top: 10px;
+}
+
+input[type=checkbox] {
+    width: 15px;
+    height: 15px;
+}
+
+
+input[type=radio] {
+    width: 16px;
+    height: 16px;
+}

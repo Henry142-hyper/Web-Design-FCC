@@ -1,0 +1,100 @@
+html {
+}
+
+main {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    position: fixed;
+    min-width: 290px;
+    width: 300px;
+    height: 100%;
+    top: 0; 
+    left: 0;
+    padding: 0;
+    border-right: 2px solid rgb(150, 150, 150);
+}
+
+nav header {
+    font-size: 25px;
+    margin: 20px;
+}
+
+nav ul {
+    height: 90%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    list-style-type: none;
+    width: 100%;
+    border-top: 1px solid black;
+    position: relative;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(124, 124, 124);
+    position: relative;
+    display: block;
+    padding: 10px 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+article {
+    margin-left: 310px;
+    padding: 0px 10px;
+}
+
+article div {
+    margin: 30px 10px;
+}
+
+article h2 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+article p {
+    font-size: 15px;
+    padding: 0px 15px;
+}
+
+article ul {
+    position: relative;
+    padding-left: 70px;
+}
+
+article li {
+    padding: 8px 0px;
+}
+
+code {
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 25px 20px;
+    display: block;
+    margin: 5px 30px;
+    color:rgb(82, 82, 82)
+}
+
+@media  screen and (max-width: 600px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        min-width: 200px;
+    }
+
+}
